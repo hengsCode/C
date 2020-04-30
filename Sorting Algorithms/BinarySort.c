@@ -12,7 +12,7 @@ int binarySearch(int val, int *array, int lo, int hi) {
 
     // when hi is less or equal 0
     if (hi <= lo) {
-        return (val > array[lo]) ? (lo + 1) : lo;
+        return ((val > array[lo]) ? (lo + 1) : lo);
     }
     int mid = (lo + hi)/2;
 
